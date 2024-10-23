@@ -1,7 +1,7 @@
 # test
 Para hacer cualquier cosa que necesite testear
 
-# Despliegue de Bahmni
+## Despliegue de Bahmni
 
 El primer paso que se debe hacer es preparar tu sistema para el despligue de Bahmni, esto se hace como indica la rama principal del repositorio Bahmni SIMSADI https://github.com/Mitridato/BAHMNI-SIMSADI/tree/main?tab=readme-ov-file.
 
