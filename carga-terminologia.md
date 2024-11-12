@@ -1,10 +1,11 @@
 
 # Cargando terminologías a SnowStorm
 
-### Requisitos
+## Pre-requisitos para subir terminologías al servidor
 
-- Java instalado.
-- HAPI-FHIR Tool instalado.
+Se necesitan instalar recursos
+- [Java](# Instalar Java)
+- HAPI-FHIR Tool.
   
 
 ### Instalar Java
