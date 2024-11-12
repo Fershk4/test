@@ -9,11 +9,11 @@ Se necesitan instalar los recursos:
   
 
 ### Instalar Java
-1.- Se  debe primero se actualizan la lista de paquetes de software disponibles en los repositorios oficiales.
+1.- Primero se actualiza la lista de paquetes de software disponibles en los repositorios oficiales.
 ```
 sudo apt update
 ```
-2.- Luego, se instala Java Runtime
+2.- Luego, se instala Java Runtime.
 ```
 sudo apt install openjdk-17-jre-headless  
 ```
@@ -40,6 +40,7 @@ java hapi-fhir-cli.jar
 ```
 
 ### Carga de terminología
+En este proyecto se subió la Norma Técnica 2.3.1 de Chile, el estandar terminológico Loinc y Cie-10. Esto se hizo de forma local en el servido, cargando un archivo .zip con la terminología y se da una dirección para hacer llamado a la terminología. 
 
 #### Loinc
 ```
@@ -52,5 +53,8 @@ java hapi-fhir-cli.jar
 ```
 
 #### Norma 820
+```
+ ./hapi-fhir-cli upload-terminology -d cie_10_deis.zip -v r4 -t http://192.168.10.187:8080/fhir -u http://hl7.org/fhir/sid/icd-10
+```
 
 
