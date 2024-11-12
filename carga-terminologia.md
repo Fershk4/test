@@ -1,5 +1,5 @@
 
-## Carga de terminologías
+# Cargando terminologías a SnowStorm
 
 ### Requisitos
 
