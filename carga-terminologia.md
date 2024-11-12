@@ -4,7 +4,7 @@
 ## Pre-requisitos para subir terminologías al servidor
 
 Se necesitan instalar recursos
-- [Java](# Instalar Java)
+- [Java](### Instalar Java)
 - HAPI-FHIR Tool.
   
 
