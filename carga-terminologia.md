@@ -3,15 +3,19 @@
 
 ## Pre-requisitos para subir terminologías al servidor
 
-Se necesitan instalar recursos
-- [Java](### Instalar Java)
-- HAPI-FHIR Tool.
+Se necesitan instalar los recursos:
+- Java
+- HAPI-FHIR Tool
   
 
 ### Instalar Java
-1.- Se instala Java
+1.- Se  debe primero se actualizan la lista de paquetes de software disponibles en los repositorios oficiales.
 ```
-sudo apt install openjdk-17-jre-headless  # version 17.0.12+7-1ubuntu2~24.04
+sudo apt update
+```
+2.- Luego, se instala Java Runtime
+```
+sudo apt install openjdk-17-jre-headless  
 ```
 
 ### Instalar HAPI-FHIR Tool
